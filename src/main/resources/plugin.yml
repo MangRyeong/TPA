@@ -1,0 +1,14 @@
+name: TPA
+version: '${project.version}'
+main: skh6075.tpa.TPA
+api-version: 1.19
+authors: [ skh6075 ]
+website: https://github.com/skh6075
+
+commands:
+  tpa:
+    description: 상대방에게 텔레포트를 신청합니다.
+  tpa수락:
+    description: 텔레포트 신청을 수락합니다.
+  tpa거절:
+    description: 텔레포트 신청을 거절합니다.
